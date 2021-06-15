@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Assist-More</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/lgstyle.css">
+</head>
+<style>
+    body{
+        background:rgba(105,105,105,0.5) url("../static/images/brooke-cagle-TiTU0k1E0UE-unsplash.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        overflow: hidden;
+    }
+
+    #container{
+        color: white;
+        height: 100vh;
+        text-align: center;
+        margin:40px auto;
+        padding: 50px 20px;
+        max-width: 400px;
+    }   
+
+    #navbar{
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+    }
+
+    .text-primary{
+        color: greenyellow;
+    }
+
+    a{
+    text-decoration:none;
+    font-size: 2rem;
+    }
+</style>
+<body>
+    <nav id="navbar">
+        <a href="/assistmore"><span class="text-primary">
+            <i class="fas fa-book-open "></i> Assist -
+            </span>
+            More
+        </a>
+    </nav>
+    <div id="container">
+        <div>
+            <i class="fas fa-unlock-alt fa-4x"></i>
+        </div>
+        <div class="login-form">
+            <h1>Admin-Login</h1>
+            <p>Welcome to <span class="text-primary">Assist-</span>More</p>
+        </div>
+        <form action="" method="POST">
+            <div class="login">
+                <label for="username">E-Mail</label>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email Address"> 
+            </div>
+            <div class="login">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter Your Password"> 
+            </div>
+            <form action="/login">
+                <button class="btn" type='submit'>Login</button>
+            </form> 
+        </form>
+        <form action="/register" class="bottom-text">
+            <p>New User?</p>
+            <input class="btn" value="Register" type="submit">
+        </form>
+    </div>  
+</body>
+</html>

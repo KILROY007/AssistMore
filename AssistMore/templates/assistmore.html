@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <link rel="stylesheet" href="../static/amstyle.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)"href="../static/mobile.css">
+    <link rel="stylesheet" media="screen and(min-width:1100px)"href="../static/wide.css">
+    <title>Assist-More| Supermarket Management </title>
+</head>
+<style>
+    #navbar input{
+        margin-top: 10px;   
+    }
+
+    #who .who-img {
+    background: url('../static/images/nrd-D6Tu_L3chLE-unsplash.jpg') no-repeat center center/cover;
+  }
+</style>
+<body id=home >
+    <nav id="navbar">
+        <h1><span class="text-primary">
+            <i class="fas fa-book-open"></i> Assist -
+            </span>
+            More
+        </h1>
+        <ul>
+            <li>
+                <a href="#home">Home</a>
+                <a href="#what">What</a>
+                <a href="#who">Who</a>
+                <a href="#contact">Contact</a>
+                <a href="/login">Logout</a>
+            </li>
+        </ul>
+    </nav>
+
+    <header>
+        <div id="showcase">
+            <div class="showcase-content">
+                <h1 class=bigfont>Your Everyday Assistant</h1>
+                <p class="mediumfont">Who Are You?</p>
+                <a  href='/login' class="btn">Admin</a>
+                <a  href='/stafflogin' class="btn">Staff</a>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div id="what" class="bg-gray">
+            <div class="container">
+                <h2 class="mediumfont"><spam class="text-primary">What</spam> We Do</h2>
+                <div class="items">
+                    <div class="item">
+                        <i class="fas fa-network-wired fa-3x"></i>
+                        <div>
+                        <h2 class="text-primary">Online Order</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sequi ut assumenda illum, natus perspiciatis?</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="fas fa-truck fa-3x"></i>
+                        <div>
+                            <h2 class="text-primary">Home Delivery</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sequi ut assumenda illum, natus perspiciatis?</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <i class="fab fa-shopware fa-3x"></i>
+                        <div>
+                        <h2 class="text-primary">Hyper Shopping Experience</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt sequi ut assumenda illum, natus perspiciatis?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="who">
+        <div class="who-img"></div>
+        <div class="who-text bg-dark p-2">
+          <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora culpa harum voluptas ratione enim consequuntur illo, atque, aut doloribus unde repellendus sit delectus beatae aspernatur placeat corrupti. Ipsa, itaque quas.</p>
+          <h3><span class="text-primary">Our</span> Team</h3>
+          <ul class="list">
+            <li>Sumanth: CEO</li>
+            <li>Sunil: CFO</li>
+            <li>Shashank: Lead Accountant</li>
+            <li>Srinivas: Investment Manager</li>
+            <li>Yashwant: Senior Accountant</li>
+          </ul>
+        </div>
+    </section>
+
+    <section id="clients">
+        <div class="container">
+              <h2 class="mediumfont"><span class="text-primary">Our</span> Clients</h2>
+            <div class="logo p-2">
+                <div><img src="../static/images/logos/logo1.png" alt="client"> </div>
+                <div><img src="../static/images/logos/logo2.png" alt="client"> </div>
+                <div><img src="../static/images/logos/logo3.png" alt="client"> </div>
+                <div><img src="../static/images/logos/logo4.png" alt="client"> </div>
+                <div><img src="../static/images/logos/logo5.png" alt="client"> </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-form bg-primary">
+            <h1 class="mediumfont">Contact us</h1>
+            <p>Please Fill This Form To Contact Us</p>
+            <form>
+                <div class="form-group">
+                    <label for="Name">Email</label>
+                    <input type="text" name="Name" id="Name" placeholder="Enter Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Enter Your email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone No</label>
+                    <input type="text" name="phone" id="phone" placeholder="Enter Your Phone number">
+                </div>
+                <div class="form-group">
+                    <label for="msg">Messeage</label>
+                    <textarea name="Name" id="msg" placeholder="Enter Your Messeage"></textarea>
+                </div>
+                <input type="submit" value="Send" class="btn">
+            </form>
+        </div>
+        <div class="map"></div>
+    </section>
+
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+    </script>
+
+    <script src="../static/main.js"></script>
+
+    <script>
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAG0yqLM1oRovEYldYzfbSsfDJtikaCX1Y&callback=initMap&libraries=&v=weekly"
+      defer
+    </script>
+
+    <footer id="footer" class="bg-dark">
+        <div class="container">
+          <p>Copyright &copy; 2020, Assist-More, All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

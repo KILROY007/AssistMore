@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+#container  .form-group{
+    display: block;
+}
+
+#container i{
+    padding-left: 1.5rem;
+}
+
+.form-wrap .form-group label{
+    display: block;
+    text-align: left;
+    font-size: 1.1rem;
+}
+
+.form-wrap .form-group input{
+    width: 100%;
+    padding: 10px;
+    border: #ddd 1px solid;
+    border-radius: 5px;
+}
+
+.form-wrap h1{
+    line-height: 3rem;
+}
+
+.bottom-text{
+    color: seashell;
+}
+
+.form-wrap a{
+    text-decoration: none;
+    color: greenyellow;
+}
+
+footer a{
+    text-decoration:none;
+    color:lightgreen;
+}
+
+.btn{
+    background-color:#ff3232;
+    padding: 6px 35px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: #ff6666;
+}
+
+.text-primary{
+    color: greenyellow;
+}
+
+#navbar{
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    padding: 1rem 1rem;
+}
+
+

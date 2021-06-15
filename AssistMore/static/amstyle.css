@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+p {
+    margin: 0.75rem     ;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0 1rem;
+}
+.text-primary{
+    color: greenyellow;
+}
+
+
+.btn{
+    display:inline-block;
+    padding: 0.5rem 1rem;
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn:hover{
+    background-color: green;
+    color: white;
+}
+
+.bigfont{
+    font-size: 5rem;
+}
+
+.mediumfont{
+    font-size: 2rem;
+    line-height: 2rem;
+    padding: 2rem;
+}
+
+.bg-gray{
+    background-color: rgba(211,211,211,0.1);
+}
+
+.bg-dark{
+    background-color: rgba(1,1,1,0.5);
+}
+
+.list{
+    list-style: none;
+}
+
+.p-1 { padding: 1.5rem; }
+.p-2 { padding: 2rem; }
+.p-3 { padding: 3rem; }
+
+.py-1{padding:1.5rem 1.5rem}
+.py-2{padding:2.5rem 2.5rem}
+.py-3{padding:3.5rem 3.5rem}
+
+.list {
+    margin: 0.5rem 0;
+    list-style: none;
+  }
+  
+  .list li {
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+  }
+
+.bg-primary{
+    background-color: greenyellow;
+}
+
+
+#navbar{
+    background-color: #333;
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 1rem;
+}
+
+#navbar ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a{
+    color: white;
+    padding: 00.75rem;
+}
+
+#navbar ul li a:hover{
+    background-color: green;
+    border-radius: 5px;
+}
+
+
+
+/*Showcase*/
+#showcase{
+    background: #333 url('../static/images/nathalia-rosa-rWMIbqmOxrY-unsplash.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+}
+
+#showcase .showcase-content{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(1,1,1,0.5);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+}
+
+#showcase .showcase-content a{
+    margin: 0.75rem;
+}
+
+/*What*/
+#what h2{
+    text-align: center;
+}
+
+#what .items{
+    display: flex;
+    padding: 1rem;
+}
+
+#what .items .item{
+    flex:1;
+    text-align: center;
+    padding: 1rem;
+}
+
+#what .items .item i{
+    padding-bottom: 1rem;
+    background-color: yellowgreen;
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/*Who*/
+#who {
+    display: flex;
+  }
+  
+  #who div {
+    flex: 1;
+  }
+  
+  
+
+/*Client*/
+#clients{
+    display: flex;
+}
+
+#clients h2{
+    text-align: center;
+}
+
+#clients .logo{
+    display: flex;
+    margin: hidden;
+    
+}
+
+#clients .logo img{
+    width: 70%;  
+}
+
+#clients .logo img:hover{
+    background-color:greenyellow;
+    border-radius: 60%;
+}
+
+
+/*Contact*/
+#contact{
+    display: flex;
+}
+
+#contact .contact-form,#contact .map{
+    flex: 1;
+}
+
+#contact .contact-form h1,#contact .contact-form p{
+    text-align: center;
+} 
+
+#contact .contact-form .form-group{
+    margin: 00.75rem;
+}
+
+#contact .contact-form .form-group label{
+    display: block;
+}
+
+#contact .contact-form  input,
+#contact .contact-form  textarea{
+width: 100%;
+padding: 0.5rem;
+}
+
+#contact .map {
+    background: url('../static/images/Screenshot\ 2020-11-30\ 195117.png')no-repeat center center/cover;
+}
+
+
+/*Footer*/
+#footer .container p{
+    text-align: center;
+  }
